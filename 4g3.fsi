@@ -27,4 +27,6 @@ val dot : float -> float -> float -> float -> float
  *
  * scale og add returnerer en string, hvori to floats står, i stedet for tupler.
  * Det kræver at programmet, der kalder funktionerne ved, de skal omregne fra strings.
+ *
+ * Alternativt kan bruges lister og arrays erstatte tupler, med lignende konsekvenser.
  *)
