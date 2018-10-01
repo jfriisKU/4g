@@ -38,7 +38,7 @@ let polyLen (n : float) : float =
   let mutable i : float = 0.0
   let mutable s : float = 0.0
   while i <= (n-1.0) do
-    s <- s + (vec2d.len (cos(2.0*System.Math.PI*i/2.0),sin(2.0*System.Math.PI*i/2.0)))
+    s <- s + (vec2d.len (cos(2.0*System.Math.PI*i/n),sin(2.0*System.Math.PI*i/2.0)))
     i <- i + 1.0
   s
 
@@ -59,5 +59,9 @@ let lengthTable (n : int) : string =
   sprintf "%s" strt
 
 printf "%s" (lengthTable 10)
+
+///New version
+Sum
+ 
 
 (* (b) *)
